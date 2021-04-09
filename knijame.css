@@ -3991,9 +3991,13 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  scroll-behavior: smooth;
 }
 article,
 aside,
